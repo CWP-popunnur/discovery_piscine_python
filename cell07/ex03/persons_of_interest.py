@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 def famous_births(figures):
-    # เรียงลำดับ dictionary ตามค่า date_of_birth ของข้อมูลด้านใน
     sorted_figures = sorted(figures.values(), key=lambda x: x["date_of_birth"])
     
     for person in sorted_figures:
