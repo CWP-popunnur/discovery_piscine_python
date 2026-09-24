@@ -7,7 +7,6 @@ def main():
     else:
         start = int(sys.argv[1])
         end = int(sys.argv[2])
-        # สร้าง range รวมตัวเลขสุดท้ายด้วย จึงใช้ end + 1
         result = list(range(start, end + 1))
         print(result)
 
